@@ -1,0 +1,28 @@
+{
+  "name": "micro-jukebox",
+  "version": "0.0.1",
+  "description": "Tiny Audio Player",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/007design/micro-jukebox.git"
+  },
+  "author": "Daniel Hinds-Bond <007@007design.com> (http://007design.com/)",
+  "bugs": {
+    "url": "https://github.com/007design/micro-jukebox/issues"
+  },
+  "homepage": "https://github.com/007design/micro-jukebox#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nightmare": "^2.9.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "musicmetadata": "^2.0.5",
+    "socket.io": "^1.7.2"
+  }
+}

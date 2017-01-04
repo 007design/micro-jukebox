@@ -1,0 +1,15 @@
+<ul class="track-list">
+	<li>{{busy}}</li>
+	<li>{{status}}</li>
+	<li data-ng-click="refresh()">Refresh</li>
+	<li>
+		<span data-ng-click="sort = 'title'">Title</span>
+		<span data-ng-click="sort = 'artist'">Artist</span>
+		<span data-ng-click="sort = 'album'">Album</span>
+	</li>
+  <li data-ng-repeat="track in tracks | orderBy:sort">
+    <span data-ng-click="play(track.path)">{{track.tags.title}}</span>
+    <span data-ng-click="play(track.path)">{{track.tags.artist}}</span>
+    <span data-ng-click="play(track.path)">{{track.tags.album}}</span>
+  </li>
+</ul>

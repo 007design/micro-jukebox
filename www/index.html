@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{title.value}}</title>
+  <meta name="description" content="{{meta_description.value}}">
+  <meta name="keywords" content="{{meta_keywords.value}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link href="assets/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div data-ng-view></div>
+
+  <script type="text/javascript" src="assets/angular.min.js"></script>
+  <script type="text/javascript" src="assets/angular-route.min.js"></script>
+  <script type="text/javascript" src="assets/socket.io.min.js"></script>
+  <script type="text/javascript" src="assets/socket.min.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>
